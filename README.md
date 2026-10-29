@@ -1,5 +1,7 @@
 # Object Detection
 
+**Note:** This is a cloned version of the object detection image app from Arduino App Lab, modified to import custom Edge Impulse .eim models directly within the app.
+
 The **Object Detection** example lets you perform object detection using a pre-trained machine learning model. It shows how to process input images, run inference, and visualize detected objects with bounding boxes and labels.
 
 ![Object Detection Example](assets/docs_assets/thumbnail.png)
