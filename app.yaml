@@ -1,0 +1,10 @@
+name: Object detection image example manual import
+description: Object detection in the browser
+ports: []
+bricks:
+- arduino:web_ui: {}
+- arduino:object_detection:
+    variables:
+      CUSTOM_MODEL_PATH: "/home/arduino/ArduinoApps/applab-object-detection-image/python"
+      EI_OBJ_DETECTION_MODEL: "/home/arduino/ArduinoApps/applab-object-detection-image/python/model.eim"
+icon: 🏞️
